@@ -149,36 +149,91 @@ body.nosotros {
         position: relative;
     }
 
-    .btn-center {
+    .btn-primera {
+        background-image: url(../img\ /layer.png);
+        background-size: cover;
+        background-position: center;
         margin: 0;
         font-family: inherit;
         font-size: inherit;
         line-height: inherit;
-        width: 120px;
-        height: 120px;
         border: none;
         position: absolute;
-        top: 50%;
-        left: 50%;
+        width: 157.5px;
+        height: 350px;
+        top: 58%;
+        left: 42.5%;
         transform: translate(-50%, -50%);
         z-index: 999;
-        border-radius: 50%;
-        background-color: green;
+        border-radius: 10%;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.3s ease; /* Transición suave */
+    }
+    
+    .btn-primera:hover {
+        transform: translate(-50%, -50%) scale(1.1); /* Escalar pero mantener la posición */
+        z-index: 2;
+        box-shadow: 0 0 20px rgb(0, 105, 0); /* Brillo verde sólido */
+        background-color: rgb(89, 193, 89);
+    }
+    .btn-primera-extra {
+        background-image: url(../img\ /yogurt.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border: none;
+        position: absolute;
+        width: 130px;
+        height: 300px;
+        top: 60.5%;
+        left: 57.5%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        border-radius: 10%;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.3s ease; /* Transición suave */
+    }
+    
+    .btn-primera-extra:hover {
+        transform: translate(-50%, -50%) scale(1.1); /* Escalar pero mantener la posición */
+        z-index: 2;
+        box-shadow: 0 0 20px rgb(255, 0, 0); /* Brillo rojo sólido */
+        background-color: rgb(240, 44, 44);
+    }
+    button{
+        background-color: transparent;
     }
 }
 
 /* Sobrescritura de estilos de reboot.scss */
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
     /* Tus modificaciones aquí */
-    background-color: #f8f9fa; /* Ejemplo de sobrescritura */
+    background-color: #f8f9fa;
+    /* Ejemplo de sobrescritura */
 }
 
 
-html,body.juegos {
+html,
+body.juegos {
     body.juegos {
         img {
             width: 400px;
