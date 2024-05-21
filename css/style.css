@@ -160,7 +160,7 @@ body.nosotros {
         border: none;
         position: absolute;
         width: 157.5px;
-        height: 350px;
+        height: 355px;
         top: 58%;
         left: 42.5%;
         transform: translate(-50%, -50%);
@@ -177,8 +177,8 @@ body.nosotros {
     .btn-primera:hover {
         transform: translate(-50%, -50%) scale(1.1); /* Escalar pero mantener la posición */
         z-index: 2;
-        box-shadow: 0 0 20px rgb(0, 105, 0); /* Brillo verde sólido */
-        background-color: rgb(89, 193, 89);
+        box-shadow: 0 0 30px rgb(0, 105, 0); /* Brillo verde sólido */
+        background-color: rgba(0, 117, 0, 0.531);
     }
     .btn-primera-extra {
         background-image: url(../img\ /yogurt.png);
@@ -191,7 +191,7 @@ body.nosotros {
         border: none;
         position: absolute;
         width: 130px;
-        height: 300px;
+        height: 305px;
         top: 60.5%;
         left: 57.5%;
         transform: translate(-50%, -50%);
@@ -209,11 +209,13 @@ body.nosotros {
         transform: translate(-50%, -50%) scale(1.1); /* Escalar pero mantener la posición */
         z-index: 2;
         box-shadow: 0 0 20px rgb(255, 0, 0); /* Brillo rojo sólido */
-        background-color: rgb(240, 44, 44);
+        background-color: rgba(240, 44, 44, 0.483);
     }
     button{
         background-color: transparent;
     }
+
+
 }
 
 /* Sobrescritura de estilos de reboot.scss */
