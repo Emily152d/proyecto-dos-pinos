@@ -171,13 +171,13 @@ body.nosotros {
         padding: 0;
         cursor: pointer;
         overflow: hidden;
-        transition: transform 0.3s ease; /* Transición suave */
+        transition: transform 0.3s ease; 
     }
     
     .btn-primera:hover {
-        transform: translate(-50%, -50%) scale(1.1); /* Escalar pero mantener la posición */
+        transform: translate(-50%, -50%) scale(1.1); 
         z-index: 2;
-        box-shadow: 0 0 30px rgb(0, 105, 0); /* Brillo verde sólido */
+        box-shadow: 0 0 30px rgb(0, 105, 0); 
         background-color: rgba(0, 117, 0, 0.531);
     }
     .btn-primera-extra {
@@ -202,13 +202,13 @@ body.nosotros {
         padding: 0;
         cursor: pointer;
         overflow: hidden;
-        transition: transform 0.3s ease; /* Transición suave */
+        transition: transform 0.3s ease; 
     }
     
     .btn-primera-extra:hover {
-        transform: translate(-50%, -50%) scale(1.1); /* Escalar pero mantener la posición */
+        transform: translate(-50%, -50%) scale(1.1); 
         z-index: 2;
-        box-shadow: 0 0 20px rgb(255, 0, 0); /* Brillo rojo sólido */
+        box-shadow: 0 0 20px rgb(255, 0, 0); 
         background-color: rgba(240, 44, 44, 0.483);
     }
     button{
@@ -218,7 +218,7 @@ body.nosotros {
 
 }
 
-/* Sobrescritura de estilos de reboot.scss */
+
 button,
 input,
 optgroup,
@@ -228,9 +228,9 @@ textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    /* Tus modificaciones aquí */
+
     background-color: #f8f9fa;
-    /* Ejemplo de sobrescritura */
+
 }
 
 
