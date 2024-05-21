@@ -211,6 +211,58 @@ body.nosotros {
         box-shadow: 0 0 20px rgb(255, 0, 0); 
         background-color: rgba(240, 44, 44, 0.483);
     }
+
+    .btn-primera-extra-extra {
+        background-image: url(../img\ /check.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border: none;
+        position: absolute;
+        width: 86px;
+        height: 90px;
+        top: 37%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        border-radius: 10%;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .btn-primera-extra-extra-extra {
+        background-image: url(../img\ /delete.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        border: none;
+        position: absolute;
+        width: 86px;
+        height: 90px;
+        top: 37%;
+        left: 67%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        border-radius: 10%;
+        display: inline-block;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+
     button{
         background-color: transparent;
     }
